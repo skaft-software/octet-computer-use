@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/skaft-software/octet",
+  "revision": "6b0717548d420909b3ee991bf940011e578b12eb",
+  "source_path": "extensions/octet-computer-use",
+  "status": "staged-source-snapshot",
+  "files": [
+    {
+      "path": ".gitignore",
+      "source_path": "extensions/octet-computer-use/.gitignore",
+      "mode": "100644",
+      "sha256": "4674e34fbde8976f287f34d19afccc90ed8a0fbf407d5296222763e79fb7cfb8"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "source_path": "extensions/octet-computer-use/CHANGELOG.md",
+      "mode": "100644",
+      "sha256": "dfdf35776ed777c6c8d65e9e0ac7c66ac859063bc5410984ccbdbaf43dbdf6a0"
+    },
+    {
+      "path": "CONTRACT.md",
+      "source_path": "extensions/octet-computer-use/CONTRACT.md",
+      "mode": "100644",
+      "sha256": "4770d0bd7e96c88f208ca1289940ec238c47a7be5127a50d77ce203a30c938da"
+    },
+    {
+      "path": "README.md",
+      "source_path": "extensions/octet-computer-use/README.md",
+      "mode": "100644",
+      "sha256": "8efabdf212b789ea4de14a45b53a610fa8d1ffebf7d19aae37c4b3ec0e07b81d"
+    },
+    {
+      "path": "build-host-app.sh",
+      "source_path": "extensions/octet-computer-use/build-host-app.sh",
+      "mode": "100644",
+      "sha256": "1935724f3e47183f36d0f6e5b83055acd774f15359a84da3422b1d18dd14e4d2"
+    },
+    {
+      "path": "extension.py",
+      "source_path": "extensions/octet-computer-use/extension.py",
+      "mode": "100755",
+      "sha256": "7fc761c71d15bf84bb371dd9a68d2bfff623252b544631f131a9a7c04a6cbc6e"
+    },
+    {
+      "path": "extension.toml",
+      "source_path": "extensions/octet-computer-use/extension.toml",
+      "mode": "100644",
+      "sha256": "16a5ea809079f4857dc656a456e1bf353440e11e629b3637358201d9c2586a20"
+    },
+    {
+      "path": "gnome-shell/CUA-LICENSE.md",
+      "source_path": "extensions/octet-computer-use/gnome-shell/CUA-LICENSE.md",
+      "mode": "100644",
+      "sha256": "c0779290c1d4783169aa3dbfb55feb505e563ef8a004bbf55298ceffcfbda8d9"
+    },
+    {
+      "path": "gnome-shell/README.md",
+      "source_path": "extensions/octet-computer-use/gnome-shell/README.md",
+      "mode": "100644",
+      "sha256": "643d73b695894885e72b18aad5a0423e0ec7f38d91f26988d72e7b4d3a1b4f10"
+    },
+    {
+      "path": "gnome-shell/winrects/extension.js",
+      "source_path": "extensions/octet-computer-use/gnome-shell/winrects/extension.js",
+      "mode": "100644",
+      "sha256": "6f5811c87ad7284a7f39d2acd3ddf8a4ea4b57dd6b5534aa971ff4d988708141"
+    },
+    {
+      "path": "gnome-shell/winrects/metadata.json",
+      "source_path": "extensions/octet-computer-use/gnome-shell/winrects/metadata.json",
+      "mode": "100644",
+      "sha256": "3f6624c882bde9d611848201e2f245c813fbc322a57a003d52847afc8e6f4c50"
+    },
+    {
+      "path": "host-app/Package.swift",
+      "source_path": "extensions/octet-computer-use/host-app/Package.swift",
+      "mode": "100644",
+      "sha256": "cf1557837d13a846f9a5ca40195dd18a9b0c9f5d048d17b23def0c0222e8ee5a"
+    },
+    {
+      "path": "host-app/Resources/AppIcon.png",
+      "source_path": "extensions/octet-computer-use/host-app/Resources/AppIcon.png",
+      "mode": "100644",
+      "sha256": "a3ceda53cbe6680e5c453c55c23d5d3b5df343813570cd3b7ccc4179f18504d6"
+    },
+    {
+      "path": "host-app/Resources/Info.plist",
+      "source_path": "extensions/octet-computer-use/host-app/Resources/Info.plist",
+      "mode": "100644",
+      "sha256": "72c8684dd89818dd4a93d532630fe3ee14f3937ebf790ef3aeca3251cfda5b2e"
+    },
+    {
+      "path": "host-app/Sources/OctetComputerUseHost/main.swift",
+      "source_path": "extensions/octet-computer-use/host-app/Sources/OctetComputerUseHost/main.swift",
+      "mode": "100644",
+      "sha256": "dd3315dba8ecaf8d09e0ee3b62f4b474fdacdd3932a495e4ad9ec445c2564b16"
+    },
+    {
+      "path": "host-app/Tools/make-iconset.swift",
+      "source_path": "extensions/octet-computer-use/host-app/Tools/make-iconset.swift",
+      "mode": "100644",
+      "sha256": "d1ef4aaeb2c26ffc182d66b59463b4f355fab9cadd9d96428f64ed2d02918cbf"
+    },
+    {
+      "path": "main.py",
+      "source_path": "extensions/octet-computer-use/main.py",
+      "mode": "100755",
+      "sha256": "f3e9bd55a9fc8819124c64e687b64a2492862d8caa40164bf5e46830f79ceffa"
+    },
+    {
+      "path": "octet_computer_use/__init__.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/__init__.py",
+      "mode": "100644",
+      "sha256": "cd3b0b94aa2d3aa50a0ae8a109b6a3c77a1f2a0612dd2e31dc2bdd057e117a3d"
+    },
+    {
+      "path": "octet_computer_use/backend_macos.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/backend_macos.py",
+      "mode": "100644",
+      "sha256": "87d3ddadfb7d21e1141013c63fb0719834b5b91305cb27e359805241622c09aa"
+    },
+    {
+      "path": "octet_computer_use/backend_windows.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/backend_windows.py",
+      "mode": "100644",
+      "sha256": "dc6b8cb7d8fa33132b51d31e66884585f5f70396320fa0d75b790052d101773e"
+    },
+    {
+      "path": "octet_computer_use/cursor_theme.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/cursor_theme.py",
+      "mode": "100644",
+      "sha256": "e0c60415ab2498600f83d076612a3c054a54aff6f3d6822df4c3adf901eb1213"
+    },
+    {
+      "path": "octet_computer_use/driver.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/driver.py",
+      "mode": "100644",
+      "sha256": "ed85c8e307a0b40f334a1c204231d01549d4b6c15ee18f68fdb65b741589567b"
+    },
+    {
+      "path": "octet_computer_use/driver_client.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/driver_client.py",
+      "mode": "100644",
+      "sha256": "963bc10c80e26ab05e3f5da1dd9f1f39d5cbbf4c9aabb96ec47c9cda365bfd05"
+    },
+    {
+      "path": "octet_computer_use/entrypoint.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/entrypoint.py",
+      "mode": "100644",
+      "sha256": "023b65f540584815ed7fadee245a190f0b66c75322303a576b1c9348b62d3288"
+    },
+    {
+      "path": "octet_computer_use/gnome_helper.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/gnome_helper.py",
+      "mode": "100644",
+      "sha256": "2d5dc5c91ffae842fd1e693dba457e550cbefdfd0d477cff49701f7cf3e90af8"
+    },
+    {
+      "path": "octet_computer_use/jev.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/jev.py",
+      "mode": "100644",
+      "sha256": "b0c8b87e54e6e1815aa21d054ce97e0d337512cfd8aa435c2b5bb7c0ca587854"
+    },
+    {
+      "path": "octet_computer_use/jev_use.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/jev_use.py",
+      "mode": "100644",
+      "sha256": "a4c471b8bd0316b5ddfce9c2de10f5251f69e7d477debbac558e41661e2da968"
+    },
+    {
+      "path": "octet_computer_use/jev_use_binding.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/jev_use_binding.py",
+      "mode": "100644",
+      "sha256": "202543c8563bffd22d59aa83f06bf535f3ecd2fa94265e35e4cdfa1d5ede5b5f"
+    },
+    {
+      "path": "octet_computer_use/jev_use_jobs.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/jev_use_jobs.py",
+      "mode": "100644",
+      "sha256": "cf7143d9a93aa21034d19dfcb5a73e2dacf96a11e6f9e2684ceaa9d9d7d041a1"
+    },
+    {
+      "path": "octet_computer_use/jev_use_verifier.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/jev_use_verifier.py",
+      "mode": "100644",
+      "sha256": "75d33e7b67fb04d3765ae225bcc574acbb73adcf12b34c57837b64166eacb1b9"
+    },
+    {
+      "path": "octet_computer_use/lifecycle.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/lifecycle.py",
+      "mode": "100644",
+      "sha256": "46a8b2b70eabe9ef13b405ed9f49e1f838ba781d1777d6d31177b2d33564084b"
+    },
+    {
+      "path": "octet_computer_use/macos/model.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/macos/model.py",
+      "mode": "100644",
+      "sha256": "ad7a01fca14817a2203a014603ce4835bc31f41c94188695b47e315bcfc25623"
+    },
+    {
+      "path": "octet_computer_use/macos/native.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/macos/native.py",
+      "mode": "100644",
+      "sha256": "087682c025d05c804fbedc5566ae1bfcc761b832fb973176aafad65e5375c11a"
+    },
+    {
+      "path": "octet_computer_use/macos/policy.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/macos/policy.py",
+      "mode": "100644",
+      "sha256": "69275723624bfd40efc4dbee10b3200c3809d251ac5543cc8654ea64887a8a74"
+    },
+    {
+      "path": "octet_computer_use/policy.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/policy.py",
+      "mode": "100644",
+      "sha256": "446ba3c945aa2f7b0fab5e1c55eb1d38cd80dbd8c3cf1dea0866730599e99c92"
+    },
+    {
+      "path": "octet_computer_use/protocol.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/protocol.py",
+      "mode": "100644",
+      "sha256": "95904c3a9956cf472d052a80b91daeb099d4189413cb7a7e7e66270d785bcbbe"
+    },
+    {
+      "path": "octet_computer_use/runtime.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/runtime.py",
+      "mode": "100644",
+      "sha256": "170e4b1dcada68d8968bf5f96dc97dc59d5863a6ed6e4b44eb3b399d29fcb2f2"
+    },
+    {
+      "path": "octet_computer_use/screenshots.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/screenshots.py",
+      "mode": "100644",
+      "sha256": "a122e56d22d52c345c2cbf92c4d44ebc4a5903f5d2661250061d2f9979dc4899"
+    },
+    {
+      "path": "octet_computer_use/service.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/service.py",
+      "mode": "100644",
+      "sha256": "7658dd8ba325e8d161213344c151ea1298b5d0057f46908237ae296a6a1becb2"
+    },
+    {
+      "path": "octet_computer_use/windows_security.py",
+      "source_path": "extensions/octet-computer-use/octet_computer_use/windows_security.py",
+      "mode": "100644",
+      "sha256": "92b2f3a30350f2deb0891aabf9c921ae684b2d57724d376db1c0de4b48190fa6"
+    },
+    {
+      "path": "skills/computer-use/SKILL.md",
+      "source_path": "extensions/octet-computer-use/skills/computer-use/SKILL.md",
+      "mode": "100644",
+      "sha256": "f90ae41b5905f943351042a9bde5214e369208bc3792e50c744611e8c567dc96"
+    },
+    {
+      "path": "tests/__init__.py",
+      "source_path": "extensions/octet-computer-use/tests/__init__.py",
+      "mode": "100644",
+      "sha256": "7f843bbd0a97bec22a1255e41ef5c2084c60c36a7f89f4faac66b48d6d0da5ab"
+    },
+    {
+      "path": "tests/fixtures/safe-window.json",
+      "source_path": "extensions/octet-computer-use/tests/fixtures/safe-window.json",
+      "mode": "100644",
+      "sha256": "87233304401204b679265f6147d5e4f9500ee51e0efc040838d71c1c6e129974"
+    },
+    {
+      "path": "tests/helpers.py",
+      "source_path": "extensions/octet-computer-use/tests/helpers.py",
+      "mode": "100644",
+      "sha256": "00a165b2087126afb8af351b47d938d5a67d950cbcb4e57c8df7f4eae46341ae"
+    },
+    {
+      "path": "tests/live_smoke.py",
+      "source_path": "extensions/octet-computer-use/tests/live_smoke.py",
+      "mode": "100644",
+      "sha256": "1538f5fbc4cd6cd46f208e2d183a611cae097fac53da94dff258ed968635025e"
+    },
+    {
+      "path": "tests/test_backend_macos.py",
+      "source_path": "extensions/octet-computer-use/tests/test_backend_macos.py",
+      "mode": "100644",
+      "sha256": "8e35f955803efd095f1cdbf3bc985490eefc21a4c8a59c2b3b61b8e2f61aced2"
+    },
+    {
+      "path": "tests/test_backend_windows.py",
+      "source_path": "extensions/octet-computer-use/tests/test_backend_windows.py",
+      "mode": "100644",
+      "sha256": "6146648607bf01d9b5abac081cce614bc10568cc0ed0544cccfa1c8a5b3e3d60"
+    },
+    {
+      "path": "tests/test_computer_use.py",
+      "source_path": "extensions/octet-computer-use/tests/test_computer_use.py",
+      "mode": "100644",
+      "sha256": "87fe64f31d34ee348d1dece6dd396eef620e7c92b87a7dc442d73b03a1e1efa9"
+    },
+    {
+      "path": "tests/test_driver.py",
+      "source_path": "extensions/octet-computer-use/tests/test_driver.py",
+      "mode": "100644",
+      "sha256": "7c6f8302db66c2419b8bd82b907c1a080502d13bf5d53f94b30cb9c8dc2c4e7b"
+    },
+    {
+      "path": "tests/test_jev.py",
+      "source_path": "extensions/octet-computer-use/tests/test_jev.py",
+      "mode": "100644",
+      "sha256": "c2ed316f3f47df911c95c54cdd36c7e59cb12f2ae6520831b6af5faf5c457765"
+    },
+    {
+      "path": "tests/test_jev_use.py",
+      "source_path": "extensions/octet-computer-use/tests/test_jev_use.py",
+      "mode": "100644",
+      "sha256": "adb552342a0879ae23f0a210cc7474c9c89ae94df36588de69eb4359c9ec8470"
+    },
+    {
+      "path": "tests/test_jev_use_binding.py",
+      "source_path": "extensions/octet-computer-use/tests/test_jev_use_binding.py",
+      "mode": "100644",
+      "sha256": "b8f0d0058e5d9522b3be5c63a1a3537ee9b8ac29b9c505fbeb9534a03af3a019"
+    },
+    {
+      "path": "tests/test_jev_use_jobs.py",
+      "source_path": "extensions/octet-computer-use/tests/test_jev_use_jobs.py",
+      "mode": "100644",
+      "sha256": "37d033912ff5739633c9a8e2778e117f30d8a86a6389386a086fc126f75c9d68"
+    },
+    {
+      "path": "tests/test_jev_use_verifier.py",
+      "source_path": "extensions/octet-computer-use/tests/test_jev_use_verifier.py",
+      "mode": "100644",
+      "sha256": "a744492906171b1302868315ff6117e0f2ca19c22d794ad34803a18b942b62d7"
+    },
+    {
+      "path": "tests/test_lifecycle.py",
+      "source_path": "extensions/octet-computer-use/tests/test_lifecycle.py",
+      "mode": "100644",
+      "sha256": "19a52485356847a6853a45c0040fef69bd49568404a01e5d20ec3cd03f84fa39"
+    },
+    {
+      "path": "tests/test_live_driver.py",
+      "source_path": "extensions/octet-computer-use/tests/test_live_driver.py",
+      "mode": "100644",
+      "sha256": "515c9a081ddb7cd76296240b6ff1f6cfb229635994f8314f0d1c6f0f6f01824b"
+    },
+    {
+      "path": "tests/test_policy.py",
+      "source_path": "extensions/octet-computer-use/tests/test_policy.py",
+      "mode": "100644",
+      "sha256": "ec331cd412c022e8787087769b4f12d783237b5c87ac299856e3fc483b40c7c7"
+    },
+    {
+      "path": "tests/test_runtime.py",
+      "source_path": "extensions/octet-computer-use/tests/test_runtime.py",
+      "mode": "100644",
+      "sha256": "6733131cd40d62c377d8e8889f082de06050028cf68e50b5909c5a548bddaffb"
+    },
+    {
+      "path": "tests/test_screenshots.py",
+      "source_path": "extensions/octet-computer-use/tests/test_screenshots.py",
+      "mode": "100644",
+      "sha256": "c96401d7d6021b1e1d61115bb07d4d98c37048c6ebe531bd5eaff2a0a9dc561d"
+    },
+    {
+      "path": "themes/CUA-LICENSE.md",
+      "source_path": "extensions/octet-computer-use/themes/CUA-LICENSE.md",
+      "mode": "100644",
+      "sha256": "c0779290c1d4783169aa3dbfb55feb505e563ef8a004bbf55298ceffcfbda8d9"
+    },
+    {
+      "path": "themes/README.md",
+      "source_path": "extensions/octet-computer-use/themes/README.md",
+      "mode": "100644",
+      "sha256": "a3c87dbcd3525235337edc8c15e1b2e679fccfa15cd26333dcce7f7c82443cf9"
+    },
+    {
+      "path": "themes/ai21.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/ai21.cua-theme",
+      "mode": "100644",
+      "sha256": "827c27e9f696f01727376be83e10a832235ce8c94f019c26ce046497bff36567"
+    },
+    {
+      "path": "themes/alibaba.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/alibaba.cua-theme",
+      "mode": "100644",
+      "sha256": "0d4d4b5b0283c82e8615b7e5b711a16314c4f0106fffd76b47fb9fbfe2144f8c"
+    },
+    {
+      "path": "themes/allenai.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/allenai.cua-theme",
+      "mode": "100644",
+      "sha256": "c4cf8b1f6f100ba1f1fe9b9c1dc4a3bb477c6b41047a57b6e1b702008ff774b6"
+    },
+    {
+      "path": "themes/amazon.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/amazon.cua-theme",
+      "mode": "100644",
+      "sha256": "f746dd8c2026b75dcd7c72c1bf19e9090ac992ee9c231b540d2f19f78158380d"
+    },
+    {
+      "path": "themes/anthropic.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/anthropic.cua-theme",
+      "mode": "100644",
+      "sha256": "0176db142c8ca0d3215626789821c9f656bccb9b8eb7d8fea1ab93ab0dac80e3"
+    },
+    {
+      "path": "themes/baidu.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/baidu.cua-theme",
+      "mode": "100644",
+      "sha256": "abb5b899d73958076ba59392bd6a48aa4cb1c96310d23aa86dbb477ab5ed2062"
+    },
+    {
+      "path": "themes/build.py",
+      "source_path": "extensions/octet-computer-use/themes/build.py",
+      "mode": "100644",
+      "sha256": "24761bfe776f6bcc7591f2bb7997522eb5e7554bab1c0da226b416483ece0138"
+    },
+    {
+      "path": "themes/bytedance.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/bytedance.cua-theme",
+      "mode": "100644",
+      "sha256": "5db0e6ff29fd0e75285506c09ddb06cf37d2be1fc4cc6ee8b616f7e35577a30c"
+    },
+    {
+      "path": "themes/cohere.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/cohere.cua-theme",
+      "mode": "100644",
+      "sha256": "ad77af14c4f6a07c2fa889abe187b8aee2f38ad9d4c31eac025d36dc8b94c208"
+    },
+    {
+      "path": "themes/cua.default.lottie",
+      "source_path": "extensions/octet-computer-use/themes/cua.default.lottie",
+      "mode": "100644",
+      "sha256": "322e40a33475599b4403a6cb2ad3286d3312a6f9c71d94abfc92dbca8fa99de8"
+    },
+    {
+      "path": "themes/deepseek.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/deepseek.cua-theme",
+      "mode": "100644",
+      "sha256": "7ba33f70b86820c6d69680a4c3b3d3b02f2593dfc801959c67ed51eb405a6d34"
+    },
+    {
+      "path": "themes/google.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/google.cua-theme",
+      "mode": "100644",
+      "sha256": "74aa9429ab233333c188a54b991c04f4eddad4f6f1511ebb4ec96f2f8c519bb6"
+    },
+    {
+      "path": "themes/ibm.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/ibm.cua-theme",
+      "mode": "100644",
+      "sha256": "6917edc69ca87a1f386ffa8d221f5595cc44c87fecddf1241d732c7cbd4b93de"
+    },
+    {
+      "path": "themes/kimi.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/kimi.cua-theme",
+      "mode": "100644",
+      "sha256": "8387bac542bf375945d7417e64030d7c5cf6d5aade83882eb85014649c268bcf"
+    },
+    {
+      "path": "themes/meta.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/meta.cua-theme",
+      "mode": "100644",
+      "sha256": "83ea7ab59890ff927b0c952621ed2bc4a00dc913243b094e4e97ab0c1ecfd5dc"
+    },
+    {
+      "path": "themes/microsoft.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/microsoft.cua-theme",
+      "mode": "100644",
+      "sha256": "b581ecdbee6617e4055425cd943b6293039c6a378d51c284650f1ece11cf06e1"
+    },
+    {
+      "path": "themes/minimax.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/minimax.cua-theme",
+      "mode": "100644",
+      "sha256": "dddbdec0c2bad415e714dda3e83835bec3849b021a515c0d97eaa5ea208a4ba0"
+    },
+    {
+      "path": "themes/mistral.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/mistral.cua-theme",
+      "mode": "100644",
+      "sha256": "6680015325d5eaa209de95243cf6ae7de2e10e528ecfd8f2d7d2d593139e5c6d"
+    },
+    {
+      "path": "themes/nvidia.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/nvidia.cua-theme",
+      "mode": "100644",
+      "sha256": "dd7273c46aece69fcddf196d6348460444fd01b22b9e1de86bbe79ae9e55ddd0"
+    },
+    {
+      "path": "themes/openai.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/openai.cua-theme",
+      "mode": "100644",
+      "sha256": "473cf71327bea0a98371c1ab0b9a4b89c5537579ca4ab1635cb2a5f1a1eee32f"
+    },
+    {
+      "path": "themes/palette.json",
+      "source_path": "extensions/octet-computer-use/themes/palette.json",
+      "mode": "100644",
+      "sha256": "40d960276d6855370a349e3632ab342abbed9083e94b5134435a9f0639ee03b7"
+    },
+    {
+      "path": "themes/perplexity.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/perplexity.cua-theme",
+      "mode": "100644",
+      "sha256": "0255c16e656f3a227eb43db59862d16a9de41a5f7913e2c0e5e093ef57c1ecc1"
+    },
+    {
+      "path": "themes/tencent.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/tencent.cua-theme",
+      "mode": "100644",
+      "sha256": "bc01f408d58d54ceb69019030847d8abe9f2e82f58b31ff7825379afc89a7ef9"
+    },
+    {
+      "path": "themes/unknown.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/unknown.cua-theme",
+      "mode": "100644",
+      "sha256": "d668035604b9bb0781539b135883c591a07c78d5d7b3516158406da627eefdd8"
+    },
+    {
+      "path": "themes/xai.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/xai.cua-theme",
+      "mode": "100644",
+      "sha256": "5bfc3d50bcc6ed32aa30421ed8b043fcd199be098562fe772b531a66d512b826"
+    },
+    {
+      "path": "themes/xiaomi.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/xiaomi.cua-theme",
+      "mode": "100644",
+      "sha256": "cb4882dbcf721dfd413b625ed90b8f11fbacb0875fd13bb55f6676d6cf52ae0a"
+    },
+    {
+      "path": "themes/zai.cua-theme",
+      "source_path": "extensions/octet-computer-use/themes/zai.cua-theme",
+      "mode": "100644",
+      "sha256": "dfb27f783fe771517f1d48cacc12c40bc0ffa1684f751ea680ca67f6c122c915"
+    },
+    {
+      "path": "vendor/octet_extension/__init__.py",
+      "source_path": "extensions/octet-computer-use/vendor/octet_extension/__init__.py",
+      "mode": "100644",
+      "sha256": "0ebf52828042e6acc2d632433284e690f0ac071759de37b7f5dab203f00ecfdd"
+    },
+    {
+      "path": "vendor/octet_extension/api_v03.py",
+      "source_path": "extensions/octet-computer-use/vendor/octet_extension/api_v03.py",
+      "mode": "100644",
+      "sha256": "c55f25f312ab1ebdc21ad95f245754988696786a6871295eeb5d39903f227220"
+    },
+    {
+      "path": "vendor/octet_extension/event_bus.py",
+      "source_path": "extensions/octet-computer-use/vendor/octet_extension/event_bus.py",
+      "mode": "100644",
+      "sha256": "d4f5b8474a32a17260734b6bd6b2ae1d2cb97dd241ea8b4ee8afb62de1d1c875"
+    },
+    {
+      "path": "vendor/octet_extension/extension.py",
+      "source_path": "extensions/octet-computer-use/vendor/octet_extension/extension.py",
+      "mode": "100644",
+      "sha256": "f441d23ac9e1943da285607d63f166225999569c8942b543706f791027f0ffdd"
+    },
+    {
+      "path": "vendor/octet_extension/protocol.py",
+      "source_path": "extensions/octet-computer-use/vendor/octet_extension/protocol.py",
+      "mode": "100644",
+      "sha256": "44eaa235b16cc4991c2ef4d695b466a3ce84fb22ea0b12ce3776bebaa7448e02"
+    }
+  ]
+}
